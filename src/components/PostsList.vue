@@ -49,6 +49,14 @@ async function submit() {
         <div class="main_content">
           <div class="post_content mb-3" v-for="(post, index) in posts">
             <div>
+              <div class="user_details">
+                <div class="user_profie">
+                  <img src="../assets/images/user.jpg" alt="">
+                </div>
+                <div class="user_name">
+                  lorem Ipsum
+                </div>
+              </div>
               <div>
                 <img src="../assets/images/post.png" alt="" />
               </div>
@@ -224,5 +232,24 @@ img {
 }
 .dropdown-menu {
     right: 0;
+}
+.user_profie {
+    max-width: 45px;
+    max-height: 45px;
+    overflow: hidden;
+    border-radius: 100px;
+}
+.user_profie img {
+    width: 100%;
+}
+.user_details {
+    display: flex;
+    align-items: center;
+    padding: 5px 5px;
+}
+.user_name {
+    margin-left: 10px;
+    font-weight: 700;
+    text-transform: capitalize;
 }
 </style>

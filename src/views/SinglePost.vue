@@ -26,6 +26,14 @@ onMounted(() => {
         <div class="main_content">
           <div class="post_content mb-3">
             <div>
+              <div class="user_details">
+                <div class="user_profie">
+                  <img src="../assets/images/user.jpg" alt="">
+                </div>
+                <div class="user_name">
+                  lorem Ipsum
+                </div>
+              </div>
               <div>
                 <img src="../assets/images/post.png" alt="" />
               </div>
