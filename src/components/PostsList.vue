@@ -61,8 +61,7 @@ async function submit() {
                 <img src="../assets/images/post.png" alt="" />
               </div>
               <router-link
-                :to="{ path: `/single-post/${post.id}` }"
-                target="_blank"
+                :to="{ path: `/single-post/${post.id}` }"                
                 class="post_text"
               >
                 <p class="post_title">{{ post.title }}</p>
@@ -222,7 +221,7 @@ img {
 }
 .dropdown {
   position: absolute !important;
-  top: 0;
+  top: 60px;
   right: 10px;
 }
 .post_toggle {
