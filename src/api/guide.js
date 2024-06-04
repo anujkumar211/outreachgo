@@ -25,7 +25,7 @@ export default function PostApiInstance() {
   };
   const SinglePost = async (id) => {
     const res = await instanceAxios({
-      url: `https://jsonplaceholder.typicode.com/posts/${id}`,
+      url: `posts/${id}`,
     });
     return res;
   };
