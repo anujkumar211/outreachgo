@@ -8,7 +8,6 @@ const postData = ref({})
 async function getSinglePost(){
     try{ 
       const {data} = await  SinglePost(routeId.value)
-      console.log('data', data)
       postData.value = data
     }catch(error){
         console.log('error', error)
