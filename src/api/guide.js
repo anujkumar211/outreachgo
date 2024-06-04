@@ -1,4 +1,4 @@
-import axios from "axios";
+
 import instanceAxios from "./index";
 export default function PostApiInstance() {
   const AllPosts = async () => {
@@ -25,7 +25,7 @@ export default function PostApiInstance() {
   };
   const SinglePost = async (id) => {
     const res = await instanceAxios({
-      url: `posts/${id}`,
+      url: `https://jsonplaceholder.typicode.com/posts/${id}`,
     });
     return res;
   };

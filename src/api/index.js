@@ -4,9 +4,6 @@ const instance = axios.create({
 });
 instance.interceptors.request.use(
   (config) => {
-    // config.headers["Authorization"] = `Bearer ${
-    //   import.meta.env.VITE_AUTH_TOKEN
-    // }`;
     return config;
   },
   (error) => {
