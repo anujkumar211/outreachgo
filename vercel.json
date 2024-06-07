@@ -1,12 +1,8 @@
 {
-    "routes": [
+    "rewrites": [
         {
-            "src": "/",
-            "dest": "/"
-          },
-          {
-            "src": "/single-post/:id",
-            "dest": "/single-post/:id"
+            "source": "/(.*)",
+            "destination": "/"
           }
     ]
 }
