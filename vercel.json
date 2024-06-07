@@ -1,0 +1,12 @@
+{
+    "routes": [
+        {
+            "src": "/",
+            "dest": "/"
+          },
+          {
+            "src": "/single-post/:id",
+            "dest": "/single-post/:id"
+          }
+    ]
+}
